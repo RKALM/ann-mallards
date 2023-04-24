@@ -1,0 +1,264 @@
+Base Case
+==========
+Epochs: 1000
+n_units = 32
+activation = 'relu'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.009186161528613925
+Root Mean Squared Error (RMSE): 0.06113287077239973
+
+Latitude:
+Mean Absolute Error (MAE): 0.029162027313898997
+Root Mean Squared Error (RMSE): 0.10750790770553834
+
+
+1. TESTING EPOCHS
+
+Base Case 10 Epochs.
+===============
+Epochs: 10
+n_units = 32
+activation = 'relu'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.08297071984012803
+Root Mean Squared Error (RMSE): 0.18266855782366384
+
+Latitude:
+Mean Absolute Error (MAE): 0.3248473496220019
+Root Mean Squared Error (RMSE): 0.6692473446504917
+
+Base Case 100 Epochs.
+===============
+Epochs: 100
+n_units = 32
+activation = 'relu'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.015463259035930774
+Root Mean Squared Error (RMSE): 0.09625881348318391
+
+Latitude:
+Mean Absolute Error (MAE): 0.020195246930374514
+Root Mean Squared Error (RMSE): 0.18485064806864834
+
+
+Base Case 500 Epochs.
+===============
+Epochs: 500
+n_units = 32
+activation = 'relu'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.031050545169861925
+Root Mean Squared Error (RMSE): 0.07175359648237817
+
+Latitude:
+Mean Absolute Error (MAE): 0.022311802088196164
+Root Mean Squared Error (RMSE): 0.14191837441041671
+
+
+Base Case 1000 Epochs.
+===============
+Epochs: 1000
+n_units = 32
+activation = 'relu'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.009186161528613925
+Root Mean Squared Error (RMSE): 0.06113287077239973
+
+Latitude:
+Mean Absolute Error (MAE): 0.029162027313898997
+Root Mean Squared Error (RMSE): 0.10750790770553834
+
+
+
+2. TESTING UNITS.
+
+Base Case 32 Units
+==================
+Epochs: 1000
+n_units = 32
+activation = 'relu'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.009186161528613925
+Root Mean Squared Error (RMSE): 0.06113287077239973
+
+Latitude:
+Mean Absolute or (MAE): 0.029162027313898997
+Root Mean Squared Error (RMSE): 0.10750790770553834
+
+Base Case 100 Units
+==================
+Epochs: 1000
+n_units = 100
+activation = 'relu'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.022925124295988655
+Root Mean Squared Error (RMSE): 0.07578104544291554
+
+Latitude:
+Mean Absolute Error (MAE): 0.0264196291113453
+Root Mean Squared Error (RMSE): 0.06148492831778314
+
+
+Base Case 500 Units
+==================
+Epochs: 1000
+n_units = 500
+activation = 'relu'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.023442447640723816
+Root Mean Squared Error (RMSE): 0.07718247253443765
+
+Latitude:
+Mean Absolute Error (MAE): 0.03787798740741903
+Root Mean Squared Error (RMSE): 0.07155768388692169
+
+
+Base Case 1000 Units
+==================
+Epochs: 1000
+n_units = 1000
+activation = 'relu'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.008798564901027732
+Root Mean Squared Error (RMSE): 0.05730079407793801
+
+Latitude:
+Mean Absolute Error (MAE): 0.06366497849545873
+Root Mean Squared Error (RMSE): 0.08536157909553346
+
+
+3. TESTING ACTIVATIONS
+
+Base Case RELU
+==================
+Epochs: 1000
+n_units = 32
+activation = 'relu'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.009186161528613925
+Root Mean Squared Error (RMSE): 0.06113287077239973
+
+Latitude:
+Mean Absolute Error (MAE): 0.029162027313898997
+Root Mean Squared Error (RMSE): 0.10750790770553834
+
+
+Base Case Linear
+==================
+Epochs: 1000
+n_units = 32
+activation = 'linear'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.01297647209360178
+Root Mean Squared Error (RMSE): 0.04359648796918636
+
+Latitude:
+Mean Absolute Error (MAE): 0.0063822391833382635
+Root Mean Squared Error (RMSE): 0.026846473065442404
+
+
+Base Case Sigmoid
+==================
+Epochs: 1000
+n_units = 32
+activation = 'sigmoid'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.009677970539266372
+Root Mean Squared Error (RMSE): 0.051010822072126746
+
+Latitude:
+Mean Absolute Error (MAE): 0.005869693809898113
+Root Mean Squared Error (RMSE): 0.026711359071230265
+
+
+Base Case SoftPlus
+==================
+Epochs: 1000
+n_units = 32
+activation = 'softplus'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.010367250064069295
+Root Mean Squared Error (RMSE): 0.047673735576762744
+
+Latitude:
+Mean Absolute Error (MAE): 0.022253123151935762
+Root Mean Squared Error (RMSE): 0.07185902398693225
+
+
+Base Case Tahn
+==================
+Epochs: 1000
+n_units = 32
+activation = 'tahn'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.02609990289320432
+Root Mean Squared Error (RMSE): 0.05000925942067358
+
+Latitude:
+Mean Absolute Error (MAE): 0.013418703414070341
+Root Mean Squared Error (RMSE): 0.02927445943917765
+
+
+4. TESTING ANTICIPATION
+
+Base Case
+==================
+Epochs: 1000
+n_units = 32
+activation = 'relu'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.009186161528613925
+Root Mean Squared Error (RMSE): 0.06113287077239973
+
+Latitude:
+Mean Absolute Error (MAE): 0.029162027313898997
+Root Mean Squared Error (RMSE): 0.10750790770553834
+
+
+Cyclic Case
+==================
+Epochs: 1000
+n_units = 32
+activation = 'relu'
+loss_function = 'mean_squared_error'
+
+Longitude:
+Mean Absolute Error (MAE): 0.015102506843522831
+Root Mean Squared Error (RMSE): 0.047979877606940655
+
+Latitude:
+Mean Absolute Error (MAE): 0.038248616113416095
+Root Mean Squared Error (RMSE): 0.061632094677201606
+
+
+
