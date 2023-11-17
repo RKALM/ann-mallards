@@ -2,7 +2,10 @@
 # Using ANN to predict the movement of mallards
 ### Names: Alm Robert, Imeri Lavdim
 Date: 2022.01.29
+
+
 Faculty of Natural Sciences
+
 
 Link: https://researchportal.hkr.se/en/studentTheses/using-ann-to-predict-the-movement-of-mallards
 
